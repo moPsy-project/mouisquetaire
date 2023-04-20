@@ -1723,7 +1723,7 @@
       )
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "R11") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1754,7 +1754,7 @@
       )
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "C4") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1883,7 +1883,7 @@
       )
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "C9") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1914,7 +1914,7 @@
       )
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "C7") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1923,7 +1923,7 @@
   (symbol (lib_id "Device:R") (at 210.82 60.325 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32c406bf-b912-4689-8a36-cfcf89fc9850)
-    (property "Reference" "R9" (at 210.82 55.6092 90)
+    (property "Reference" "R10" (at 210.82 55.6092 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 210.82 58.1461 90)
@@ -1940,7 +1940,7 @@
     (instances
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
       (project "one4all-business"
@@ -1976,7 +1976,7 @@
       )
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "C10") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2079,19 +2079,19 @@
     )
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 195.58 60.325 0) (unit 2)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 195.58 78.105 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fa18bf5-d9b3-482f-8f34-d7acf77d14d5)
-    (property "Reference" "U2" (at 195.58 52.2351 0)
+    (property "Reference" "U2" (at 195.58 70.0151 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TL074" (at 195.58 54.1561 0)
+    (property "Value" "TL074" (at 195.58 71.9361 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" (at 194.31 57.785 0)
+    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" (at 194.31 75.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 196.85 55.245 0)
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 196.85 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ce88a8de-cb02-4b4b-81dd-65048cc86704))
@@ -2180,7 +2180,7 @@
   (symbol (lib_id "Device:R") (at 210.82 78.105 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5432c29c-29a6-46ee-8318-13c02af158d1)
-    (property "Reference" "R10" (at 210.82 73.3892 90)
+    (property "Reference" "R11" (at 210.82 73.3892 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 210.82 75.9261 90)
@@ -2197,7 +2197,7 @@
     (instances
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "R10") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
       (project "one4all-business"
@@ -2233,7 +2233,7 @@
       )
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "C6") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2662,25 +2662,25 @@
       )
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 194.31 38.735 0) (unit 1)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 195.58 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9424ab04-47c3-42ea-9054-ee7c3a941739)
-    (property "Reference" "U2" (at 194.31 30.6451 0)
+    (property "Reference" "U2" (at 195.58 52.2351 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TL074" (at 194.31 32.5661 0)
+    (property "Value" "TL074" (at 195.58 54.1561 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" (at 193.04 36.195 0)
+    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" (at 194.31 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 195.58 33.655 0)
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 196.85 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3d0a2e2d-6ee9-430d-9c2c-f6d60fe63c9c))
@@ -2927,7 +2927,7 @@
       )
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "R5") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2958,7 +2958,7 @@
       )
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2989,7 +2989,7 @@
       )
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "C8") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3028,7 +3028,7 @@
   (symbol (lib_id "Device:R") (at 175.26 36.195 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4dc177e-4e6e-4edc-9c14-6b58b1c3bdac)
-    (property "Reference" "R7" (at 175.26 31.4792 90)
+    (property "Reference" "R8" (at 175.26 31.4792 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 175.26 34.0161 90)
@@ -3045,7 +3045,7 @@
     (instances
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "one4all-business"
@@ -3289,7 +3289,7 @@
   (symbol (lib_id "Device:R") (at 210.82 38.735 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1ceaa93-621d-46d6-a0b3-b658747db2f1)
-    (property "Reference" "R8" (at 210.82 34.0192 90)
+    (property "Reference" "R9" (at 210.82 34.0192 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 210.82 36.5561 90)
@@ -3306,7 +3306,7 @@
     (instances
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "R8") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
       (project "one4all-business"
@@ -3342,25 +3342,25 @@
       )
       (project "mousquetaire"
         (path "/6467167b-c991-4ed5-b6bb-0d17859f2985"
-          (reference "C5") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Amplifier_Operational:TL074") (at 195.58 78.105 0) (unit 3)
+  (symbol (lib_id "Amplifier_Operational:TL074") (at 194.31 38.735 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb846f5a-a6bf-4e2e-9b48-191c29bc928a)
-    (property "Reference" "U2" (at 195.58 70.0151 0)
+    (property "Reference" "U2" (at 194.31 30.6451 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TL074" (at 195.58 71.9361 0)
+    (property "Value" "TL074" (at 194.31 32.5661 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" (at 194.31 75.565 0)
+    (property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" (at 193.04 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 196.85 73.025 0)
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf" (at 195.58 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b927f2ce-516f-4cb8-9a91-2fab26ec00da))
